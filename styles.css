@@ -13,3 +13,8 @@
 /* Mantém o topo do retrato no quadro e encobre as letras impressas no mockup. */
 @media(min-width:751px){.hero{background-image:linear-gradient(90deg,#081b25 0%,#081b25 49%,rgba(8,27,37,.92) 54%,rgba(8,27,37,.08) 69%),url('assets/hero-original.jpg');background-size:100% auto;background-position:center top;background-repeat:no-repeat}}
 @media(max-width:750px){.hero{background-image:linear-gradient(180deg,rgba(8,27,37,.99) 0%,rgba(8,27,37,.97) 66%,rgba(8,27,37,.66) 100%),url('assets/hero-original.jpg');background-position:66% top}}
+
+/* Seis áreas com CTA de contato contextual. */
+@media(min-width:1101px){.area-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.area-card{min-height:275px;padding:30px}}
+.area-card .area-cta{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #ebdfd0;padding-top:14px;font-weight:700;color:#73502f}
+.area-card .area-cta:hover{color:#a4753d}
