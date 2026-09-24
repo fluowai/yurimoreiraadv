@@ -9,3 +9,7 @@
 .hero:before{display:none}.hero-glow{display:none}.hero-grid{display:flex;align-items:center}.hero-content{width:min(55%,680px)}.hero-visual{display:none}
 @media(max-width:1100px){.hero{background-position:56% center}.hero-content{width:min(68%,630px)}}
 @media(max-width:750px){.hero{background-image:linear-gradient(180deg,rgba(8,27,37,.94) 0%,rgba(8,27,37,.91) 50%,rgba(8,27,37,.42) 100%),url('assets/hero-original.jpg');background-size:auto 100%;background-position:56% center}.hero-grid{display:block}.hero-content{width:100%}.hero-visual{display:none}}
+
+/* Mantém o topo do retrato no quadro e encobre as letras impressas no mockup. */
+@media(min-width:751px){.hero{background-image:linear-gradient(90deg,#081b25 0%,#081b25 49%,rgba(8,27,37,.92) 54%,rgba(8,27,37,.08) 69%),url('assets/hero-original.jpg');background-size:100% auto;background-position:center top;background-repeat:no-repeat}}
+@media(max-width:750px){.hero{background-image:linear-gradient(180deg,rgba(8,27,37,.99) 0%,rgba(8,27,37,.97) 66%,rgba(8,27,37,.66) 100%),url('assets/hero-original.jpg');background-position:66% top}}
